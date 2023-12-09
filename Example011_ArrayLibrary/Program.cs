@@ -33,6 +33,7 @@ int IndexOf(int[] collection, int find)
             position = index;
         }
         index++;
+        break;
     }
     return position;
 }
